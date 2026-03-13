@@ -1459,9 +1459,9 @@ ul.comment {
   gap: 20px;
 }
 
-
 .video_wrap.mo, .img_wrap.mo {
   border-radius: 20px;
+  padding: 6px;
 }
 
 .video_wrap.mo video, .img_wrap.mo img {

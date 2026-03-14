@@ -278,11 +278,18 @@ a[x-apple-data-detectors] {
 
 
 .btn_top,
+.btn_top:link,
 .btn_top:visited,
+.btn_top:hover,
 .btn_top:active,
 .btn_top:focus {
   color: #000000;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn_top svg {
+  stroke: currentColor;
 }
 
 /* 보일 때 */

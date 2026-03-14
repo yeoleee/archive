@@ -276,6 +276,15 @@ a[x-apple-data-detectors] {
     cursor: pointer;
 }
 
+
+.btn_top,
+.btn_top:visited,
+.btn_top:active,
+.btn_top:focus {
+  color: #000000;
+  text-decoration: none;
+}
+
 /* 보일 때 */
 .btn_top.is-visible {
   opacity: 1;

@@ -1,6 +1,6 @@
-# UI/UX Portfolio Archive
+# Design Portfolio Archive
 
-UI/UX 디자이너 이임열의 웹 기반 포트폴리오 아카이브입니다.  
+프로덕트 디자이너 이임열의 웹 기반 포트폴리오 아카이브입니다.  
 주요 프로젝트의 UX 설계 과정과 UI 디자인 결과물을 정리했습니다.
 
 ## Preview

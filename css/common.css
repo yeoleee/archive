@@ -1500,6 +1500,10 @@ ul.comment {
 
 @media screen and (max-width: 760px) {
 
+    .wrap {
+    padding: 20px 20px 120px 20px;
+}
+
 .header.sub {
   height: 52px;
   font-size: 14px;

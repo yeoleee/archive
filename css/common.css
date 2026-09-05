@@ -572,6 +572,16 @@ span.lights {
     padding-right: 12px;
 }
 
+span.lights.on {
+    display: none;
+}
+
+
+.header.mo span.lights.on {
+    display: none;
+}
+
+
 .header ul.header_right li a {
     display: flex;
     flex-direction: row;
@@ -619,6 +629,18 @@ span.lights {
   width: 6px;
   height: 6px;
   background-color:var(--color-progress-40);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+
+.lights.disabled::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  background-color:var(--color-gray-20);
   border-radius: 50%;
   transform: translateY(-50%);
 }
@@ -1642,6 +1664,10 @@ ul.comment {
 
 .profile {
   width: 72%;
+}
+
+span.lights.on {
+    display: none;
 }
 
 }
